@@ -68,12 +68,6 @@ def task(csvString):
     arr4 = rel4(graph)
     # Соподчинение
     arr5 = rel5(graph)
-
-    # Результаты
+    
     return [arr1, arr2, arr3, arr4, arr5]
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    task('/content/task3.csv')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
